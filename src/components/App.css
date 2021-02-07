@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  color: #212122;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #80A1C1;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* NAVIGATION BAR */
+.nav-container {
+  text-align: left;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* LANDING PAGE */
+.header {
+  /* padding-top: 2.5rem; */
+  min-height: 32vh;
+  position: relative;
+  text-align: center;
+}
+
+
+.header-background-img {
+  width: 40em;
+  margin-top: 10rem;
+  opacity: .65;
+  z-index: 1;
+}
+
+
+.header-font {
+  color: #80A1C1; 
+  font-family: 'Shadows Into Light', cursive;
+  margin-bottom: 1rem;
+
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 1000;
+}
+
+.artist-photo {
+  padding: 2.5rem;
+}
+
+
+.section-heading {
+  color: #80A1C1; 
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 5rem;
+  margin: 1.5rem;
+  border-bottom: 1px solid #80A1C1; 
+}
+
+.music-container, .upcoming-dates, .subscribe-container {
+  width: 90%; 
+  margin: 0 auto;
+  padding: 2.5em;
+  margin-top: 2rem;
+  margin-bottom: 6em;
+}
+
+.upcoming-dates, .subscribe-container {
+  margin-top: 5rem;
+  width: 50%;  
+}
+
+.s-media-container {
+  padding-top: 1%;
+  margin: 0 auto;
+  margin-right: -1rem;
+  padding-right: 2.5rem;
+  
+}
+
+.nav-link {
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  margin: 0 1.5rem;
+  padding: 0 .5rem;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+
+.sm-icon {
+  display: inline-block;
+  font-size: 2.5rem;
+  padding: 0 5px;
+  color: #80A1C1;
+}
+
+.sm-icon:hover {
+  color: orangered;
+}
+
+.landing-pg-photo {
+  margin-top: 5rem;
+  width: 200%;
+  opacity: 0.8;
+}
+
+/* Music Section */
+
+.video-container {
+  margin-top: 2.5rem;
+}
+
+/* Upcoming Events Section */
+.event-list {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 auto;
+  font-family: 'Nunito', sans-serif;
+}
+
+.event {
+  line-height: 46px;
+  font-size: 1.5rem;
+  padding: 2px;
+  color: #212122;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+}
+
+.event:hover {
+  transform: scale(1.1);
+  background-color: orangered;
+  color: white;
+  opacity: .8;
+  border-radius: 1rem;
+}
+
+/* Subscribe Section */
+
+.form-area {
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 2rem;
+
+}
+
+#emailInput {
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif;
+  color: #212122;
+  border: 2px solid #80A1C1;
+  border-radius: .5rem;
+  line-height: 28px;
+  padding: 5px;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+
+#submit-btn {
+  background-color: #80A1C1;
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: .5rem; 
+  padding: 8px;
+  font-family: 'Nunito', sans-serif;
+} 
+
+#submit-btn:hover {
+  cursor: pointer;
+  background-color: orangered;
+}
+
+/* Misc */
+
+.shadow {
+  -webkit-box-shadow: 5px 5px 10px 10px rgb(224, 224, 224);
+  -moz-box-shadow: 5px 5px 10px 10px rgb(224, 224, 224);  
+  box-shadow: 5px 5px 10px 10px rgb(224, 224, 224);  
+}
