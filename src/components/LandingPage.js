@@ -9,10 +9,12 @@ import backgroundPhoto from '../assets/Fin-Rah-Zel-dog-background.jpg'
 const LandingPage = () => {
 
   return (
-    <header className="header">
-      <h1 className="header-font" style={{fontSize: "6rem"}}>Fin Rah Zel</h1>
-      <img className="header-background-img" src={backgroundPhoto} alt="Fin Rah Zel playing guitar" />
-    </header>
+    <div className="landing-page">
+      <header className="header">
+        <h1 className="header-font" style={{fontSize: "6rem"}}>Fin Rah Zel</h1>
+        <img className="header-background-img" src={backgroundPhoto} alt="Fin Rah Zel playing guitar" />
+      </header>
+    </div>
   )
 }
 

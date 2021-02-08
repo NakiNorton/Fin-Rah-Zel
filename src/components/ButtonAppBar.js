@@ -40,8 +40,14 @@ const ButtonAppBar = () => {
             <MenuIcon />
           </IconButton>
         </div>
+    
         <section className="nav-container">
           <ul>
+            <li className="nav-link">
+              <Link to='landing-page' activeClass="active" spy={true} smooth={true}>
+                <h2 className="sml-h2 nav-head">Fin Rah Zel</h2>
+              </Link>
+            </li>
             <li className="nav-link">
               <Link to='music-container' activeClass="active" spy={true} smooth={true}>Music</Link>
             </li>
