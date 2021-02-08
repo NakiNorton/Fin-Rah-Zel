@@ -10,10 +10,13 @@ const App = () => {
   return (
     <div className="App">
       <ButtonAppBar />
-      <LandingPage />
+      <LandingPage id='landing-page'/>
       <MusicContainer id='music-container'/>
       <UpcomingDates id='upcoming-dates' />
       <SubscribeContainer id='subscribe-container' /> 
+      <footer>
+        <h2 className="sml-h2">Fin Rah Zel</h2>
+      </footer>
     </div>
   )
 }
