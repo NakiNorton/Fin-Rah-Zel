@@ -25,6 +25,10 @@ h3 {
   text-align: left;
 }
 
+.nav-links {
+  margin: 0!important;
+}
+
 .mobile-menu {
   display: none;
 }
