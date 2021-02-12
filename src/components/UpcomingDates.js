@@ -22,7 +22,9 @@ const UpcomingDates = () => {
   return (
     <>
       <section className="upcoming-dates">
-        <h2 className="section-heading">Upcoming Dates</h2>
+        <div className="sec-title-container-sml">
+          <h2 className="section-heading">Upcoming Dates</h2>
+        </div>
         <ul className="event-list">
           <li className="event">Barry's bar, Saturday October 15th 2021 @9am</li>
           <li className="event">Waterfront Cafe, Saturday March 20th 2021 @9am</li>

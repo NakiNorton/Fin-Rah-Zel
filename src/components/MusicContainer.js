@@ -8,7 +8,9 @@ const MusicContainer = () => {
   return (
     <>
       <section className="music-container">
-        <h2 className="section-heading">Music</h2>
+        <div className="sec-title-container">
+          <h2 className="section-heading">Music</h2>
+        </div>
         <div className="s-media-container">
           <h3>Listen to Fin Rah Zel on your favourite app:</h3>
           <a href="https://www.facebook.com/FinRahZel">

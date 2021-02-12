@@ -18,7 +18,9 @@ const SubscribeContainer = () => {
         <img className="img" src={photo} alt="Fin Rah Zel holding guitar"/>
         </section>
         <section className="column-2">
-          <h2 className="section-heading">Subscribe</h2>
+          <div className="sec-title-container">
+            <h2 className="section-heading">Subscribe</h2>
+          </div>
           {!subscribed &&
             <>
               <p>No FOMO here! Subscribe to keep up to date </p>
