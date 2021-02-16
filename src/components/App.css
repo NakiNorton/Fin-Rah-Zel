@@ -15,7 +15,7 @@ p {
 
 h3 {
   font-size: 1.5rem;
-  color: #80A1C1;
+  color: #c2b280;
   font-weight: 400;
   font-family: 'Nunito', sans-serif;
 }
@@ -51,7 +51,7 @@ h3 {
 
 
 .header-font {
-  color: #80A1C1; 
+  color: #c2b280;
   font-family: 'Shadows Into Light', cursive;
   margin-bottom: 1rem;
 
@@ -70,7 +70,7 @@ h3 {
 
 .section-heading {
   color: white;
-  color: #80A1C1; 
+  color: #c2b280; 
   font-family: 'Shadows Into Light', cursive;
   font-size: 5rem;
   margin: 1.5rem;
@@ -141,11 +141,11 @@ border-bottom: 1px solid white;
   display: inline-block;
   font-size: 2.5rem;
   padding: 0 5px;
-  color: #80A1C1;
+  color: #212122;
 }
 
 .sm-icon:hover {
-  color: orangered;
+  color: black;
 }
 
 .landing-pg-photo {
@@ -236,7 +236,7 @@ border-bottom: 1px solid white;
   font-size: 1.2rem;
   font-family: 'Nunito', sans-serif;
   color: #212122;
-  border: 2px solid #80A1C1;
+  border: 2px solid #212122;
   border-radius: .5rem;
   line-height: 28px;
   padding: 5px;
@@ -245,7 +245,7 @@ border-bottom: 1px solid white;
 }
 
 #submit-btn {
-  background-color: #80A1C1;
+  background-color: #212122;
   width: 100%;
   color: white;
   font-size: 1.2rem;
@@ -257,7 +257,7 @@ border-bottom: 1px solid white;
 
 #submit-btn:hover {
   cursor: pointer;
-  background-color: orangered;
+  /* background-color: #c2b280; */
 }
 
 /* Misc */
@@ -272,7 +272,7 @@ border-bottom: 1px solid white;
 
 footer {
   height: 20vh;
-  background-color: #80A1C1;
+  background-color: #c2b280;
 }
 
 .sml-h2 {
