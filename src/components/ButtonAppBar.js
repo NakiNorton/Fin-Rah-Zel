@@ -16,7 +16,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   color: {
-    backgroundColor: "#c2b280",
+    backgroundColor: "white",
+    // backgroundColor: "#caba8a",
  
   },
   menuButton: {
@@ -63,19 +64,19 @@ const ButtonAppBar = () => {
           <div className="s-media-container">
 
             <a href="https://www.facebook.com/FinRahZel">
-              <i className="sm-icon" style={{ color: "#fff" }}>
+              <i className="sm-icon" style={{ color: "rgb(82, 81, 81)" }}>
                 <FacebookIcon fontSize="inherit" color='inherit' />
               </i>
             </a>
 
             <a href="https://www.instagram.com/finrahzel/?hl=en">
-              <i className="sm-icon" style={{ color: "#fff"  }}>
+              <i className="sm-icon" style={{ color: "rgb(82, 81, 81)"  }}>
               <InstagramIcon fontSize="inherit" color='inherit' />
               </i>
             </a>
 
             <a href="https://www.youtube.com/channel/UC2IwDrBMMbk0Ux0844IuEBA">
-              <i className="sm-icon" style={{ color: "#fff"  }}>
+              <i className="sm-icon" style={{ color: "rgb(82, 81, 81)"  }}>
               <YouTubeIcon fontSize="inherit" color='inherit' />
               </i>
             </a>

@@ -31,9 +31,9 @@ const UpcomingDates = () => {
           <li className="event">Bri bar, Saturday October 15th 2021 @9am</li>
         </ul>
 
-        <div className="artist-photo">
-          <Avatar className={classes.root} src={artistPhoto1} alt="Fin Rah Zel playing guitar" />
-        </div>
+          <div className="artist-photo">
+            <Avatar className={classes.root} src={artistPhoto1} alt="Fin Rah Zel playing guitar" />
+          </div>
       </section>
     </> 
   )
