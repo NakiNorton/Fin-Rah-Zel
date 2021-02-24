@@ -121,7 +121,7 @@ h3 {
 
 
 
-.music-container, .upcoming-dates, .subscribe-container {
+.music-container, .upcoming-dates, .contact {
   width: 90%; 
   margin: 0 auto;
   padding: 2.5em;
@@ -152,7 +152,7 @@ h3 {
 }
 
 .nav-link:not(:first-child):hover {
-border-bottom: 1px solid #aca285;;
+  /* border-bottom: 1px solid #aca285;; */
 }
 
 
@@ -216,7 +216,7 @@ border-bottom: 1px solid #aca285;;
 
 /* Subscribe Section */
 
-.subscribe-container {
+.contact {
   margin-top: 6rem;
   padding-top: 5rem;
   margin-bottom: 18rem;

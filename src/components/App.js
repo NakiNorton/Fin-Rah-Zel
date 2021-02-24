@@ -4,7 +4,7 @@ import About from './About';
 import ButtonAppBar from './ButtonAppBar';
 import MusicContainer from './MusicContainer';
 import UpcomingDates from './UpcomingDates';
-import SubscribeContainer from './SubscribeContainer';
+import Contact from './Contact';
 
 import FadeInSection from './FadeInAnimation/FadeInAnimation'
 
@@ -37,7 +37,7 @@ const App = () => {
       </FadeInSection>
 
       <FadeInSection>
-        <SubscribeContainer id='subscribe-container' /> 
+        <Contact id='contact' /> 
       </FadeInSection >
 
       <footer>

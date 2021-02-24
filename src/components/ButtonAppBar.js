@@ -48,13 +48,16 @@ const ButtonAppBar = () => {
               </Link>
             </li>
             <li className="nav-link">
+              <Link to='about' activeClass="active" spy={true} smooth={true}>About</Link>
+            </li>
+            <li className="nav-link">
               <Link to='music-container' activeClass="active" spy={true} smooth={true}>Music</Link>
             </li>
             <li className="nav-link">
               <Link to='upcoming-dates' activeClass="active" spy={true} smooth={true} >Upcoming Dates</Link>
             </li>
             <li className="nav-link">
-              <Link to='subscribe-container' activeClass="active" spy={true} smooth={true} >Subscribe</Link>
+              <Link to='contact' activeClass="active" spy={true} smooth={true} >Contact</Link>
             </li>
           </ul>
         </section>

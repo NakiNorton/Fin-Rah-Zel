@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import photo from '../assets/Fin-Rah-Zel-Titled-Pic.png'
 
-const SubscribeContainer = () => {
+const Contact = () => {
   const [ name, setName ] = useState('')
   const [ email, setEmail ] = useState('')
   const [ message, setMessage ] = useState('')
@@ -31,7 +31,7 @@ const SubscribeContainer = () => {
 
   return (
     <>
-      <section className="subscribe-container">
+      <section className="contact">
         <section className="column-1">
         <img className="img" src={photo} alt="Fin Rah Zel holding guitar"/>
         </section>
@@ -62,4 +62,4 @@ const SubscribeContainer = () => {
   )
 }  
 
-export default SubscribeContainer;
+export default Contact;
