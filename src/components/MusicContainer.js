@@ -1,9 +1,5 @@
 import React from 'react'
 
-import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import YouTubeIcon from '@material-ui/icons/YouTube';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const MusicContainer = () => {
@@ -12,34 +8,9 @@ const MusicContainer = () => {
     <>
       <section className="music-container">
         <div className="sec-title-container">
-          <h2 className="section-heading">Music</h2>
+          <h2 className="section-heading">Latest Releases</h2>
         </div>
-        <div className="s-media-container">
-          <h3>Listen to Fin Rah Zel on your favourite app:</h3>
-          <a href="https://www.facebook.com/FinRahZel">
-            <i className="sm-icon">
-              <FacebookIcon fontSize="inherit" color='inherit' />
-            </i>
-          </a>
 
-          <a href="https://www.instagram.com/finrahzel/?hl=en">
-            <i className="sm-icon">
-              <InstagramIcon fontSize="inherit" color='inherit' />
-            </i>
-          </a>
-
-          <a href="https://www.youtube.com/channel/UC2IwDrBMMbk0Ux0844IuEBA">
-            <i className="sm-icon">
-              <YouTubeIcon fontSize="inherit" color='inherit' />
-            </i>
-          </a>
-          
-          <a href="https://open.spotify.com/artist/2LHIjyp5jNwOU2bJftD6K3">
-            <i className="sm-icon">
-              <FontAwesomeIcon icon={['fab', 'spotify']} />
-            </i>
-          </a>
-        </div>
 
 
         <div className="video-container">
