@@ -65,25 +65,25 @@ const ButtonAppBar = () => {
           <div className="s-media-container">
 
             <a href="https://www.facebook.com/FinRahZel">
-              <i className="sm-icon" style={{ color: "rgb(82, 81, 81)" }}>
+              <i className="sm-icon" style={{ color: "black" }}>
                 <FacebookIcon fontSize="inherit" color='inherit' />
               </i>
             </a>
 
             <a href="https://www.instagram.com/finrahzel/?hl=en">
-              <i className="sm-icon" style={{ color: "rgb(82, 81, 81)"  }}>
+              <i className="sm-icon" style={{ color: "black"  }}>
               <InstagramIcon fontSize="inherit" color='inherit' />
               </i>
             </a>
 
             <a href="https://www.youtube.com/channel/UC2IwDrBMMbk0Ux0844IuEBA">
-              <i className="sm-icon" style={{ color: "rgb(82, 81, 81)"  }}>
+              <i className="sm-icon" style={{ color: "black"  }}>
               <YouTubeIcon fontSize="inherit" color='inherit' />
               </i>
             </a>
 
             <a href="https://open.spotify.com/artist/2LHIjyp5jNwOU2bJftD6K3">
-              <i className="sm-icon" style={{ color: "rgb(82, 81, 81)" }}>
+              <i className="sm-icon" style={{ color: "black" }}>
                 <FontAwesomeIcon icon={['fab', 'spotify']} />
               </i>
             </a>
