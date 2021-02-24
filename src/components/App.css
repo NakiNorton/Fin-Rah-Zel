@@ -46,7 +46,7 @@ h3 {
 
 .header-background-img {
   width: 48%;
-  margin-top: -12rem;
+  /* margin-top: -12rem; */
   opacity: .8;
   z-index: 1;
  
@@ -60,7 +60,7 @@ h3 {
   color: #aca285;
   width: 50%;
   /* background-color: rgba(22, 20, 20, 0.856); */
-  background-color: rgba(255, 255, 255, 0.886);
+  background-color: rgba(255, 255, 255, 0.774);
   padding: 0rem 1rem;
   font-family: 'Abhaya Libre', serif;
   margin-bottom: 1rem;
@@ -68,7 +68,7 @@ h3 {
   font-weight: 400;
 
   position: absolute;
-  top: 65%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
 
