@@ -1,10 +1,6 @@
-import React, { useState } from 'react'
-// import Header from './Header.js'
-
-// import { makeStyles } from '@material-ui/core/styles';
-// import artistPhoto1 from '../assets/musician-1.jpg'
+import React from 'react'
 import backgroundPhoto from '../assets/FinRahZel-9.svg'
-// import Avatar from '@material-ui/core/Avatar';
+
 
 const LandingPage = () => {
 
