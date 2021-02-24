@@ -17,8 +17,6 @@ const useStyles = makeStyles((theme) => ({
   },
   color: {
     backgroundColor: "white",
-    // backgroundColor: "#caba8a",
- 
   },
   menuButton: {
     marginRight: theme.spacing(3),
@@ -82,7 +80,7 @@ const ButtonAppBar = () => {
             </a>
 
             <a href="https://open.spotify.com/artist/2LHIjyp5jNwOU2bJftD6K3">
-              <i className="sm-icon">
+              <i className="sm-icon" style={{ color: "rgb(82, 81, 81)" }}>
                 <FontAwesomeIcon icon={['fab', 'spotify']} />
               </i>
             </a>
