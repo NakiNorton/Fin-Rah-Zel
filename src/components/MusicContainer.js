@@ -3,8 +3,11 @@ import React from 'react'
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 const MusicContainer = () => {
+
   return (
     <>
       <section className="music-container">
@@ -30,10 +33,15 @@ const MusicContainer = () => {
               <YouTubeIcon fontSize="inherit" color='inherit' />
             </i>
           </a>
-
+          
+          <a href="https://open.spotify.com/artist/2LHIjyp5jNwOU2bJftD6K3">
+            <i className="sm-icon">
+              <FontAwesomeIcon icon={['fab', 'spotify']} />
+            </i>
+          </a>
         </div>
 
-        
+
         <div className="video-container">
 
           <div className="video" style={{ display: "inline", padding: "1rem" }}>

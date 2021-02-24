@@ -3,12 +3,12 @@ import { Link } from "react-scroll";
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -78,6 +78,12 @@ const ButtonAppBar = () => {
             <a href="https://www.youtube.com/channel/UC2IwDrBMMbk0Ux0844IuEBA">
               <i className="sm-icon" style={{ color: "rgb(82, 81, 81)"  }}>
               <YouTubeIcon fontSize="inherit" color='inherit' />
+              </i>
+            </a>
+
+            <a href="https://open.spotify.com/artist/2LHIjyp5jNwOU2bJftD6K3">
+              <i className="sm-icon">
+                <FontAwesomeIcon icon={['fab', 'spotify']} />
               </i>
             </a>
 
