@@ -1,0 +1,13 @@
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in-section {
+    opacity: 0;
+    transition: opacity 1.75s, transform 1.75s ease-out;
+    will-change: opacity, visibility;
+  }
+
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+}
