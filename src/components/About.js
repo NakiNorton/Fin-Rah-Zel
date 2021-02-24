@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   return (
-    <div className='about fade-in-section'>
+    <div className='about'>
       <h2 className="section-heading">ABOUT</h2>
       <section className='about-content'>
         <article>

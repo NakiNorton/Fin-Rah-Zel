@@ -31,7 +31,7 @@ const SubscribeContainer = () => {
 
   return (
     <>
-      <section className="subscribe-container fade-in-section">
+      <section className="subscribe-container">
         <section className="column-1">
         <img className="img" src={photo} alt="Fin Rah Zel holding guitar"/>
         </section>
