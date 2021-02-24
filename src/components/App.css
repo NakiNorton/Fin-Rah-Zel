@@ -158,13 +158,13 @@ border-bottom: 1px solid #aca285;;
 
 .sm-icon {
   display: inline-block;
-  font-size: 2.5rem;
-  padding: 0 5px;
-  color: #545455;
+  font-size: 2.8rem;
+  padding: 0 .5rem;
+  color: white;
 }
 
 .sm-icon:hover {
-  color: #545455;
+  color: #aca285;
 }
 
 .landing-pg-photo {
