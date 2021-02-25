@@ -2,9 +2,12 @@ import React from 'react';
 import { Link } from "react-scroll";
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
+import Button from '@material-ui/core/Button';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
+
+import Menu from '@material-ui/core/Menu';
 import MenuIcon from '@material-ui/icons/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
@@ -27,17 +30,56 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
 const ButtonAppBar = () => {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.target);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   const classes = useStyles();
 
   return (
     <div className={classes.root} style={{ color: "#5387bb" }}>
       <AppBar position="fixed" className={classes.color} style={{ display: 'flex', justifyContent: 'space-between' }}>
         <Toolbar>
+
         <div className="mobile-menu">
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
+          <MenuIcon color="inherit" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} fontSize="large" />
+          <Menu
+            id="simple-menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleClose}
+          >
+            <MenuItem onClick={handleClose}>
+              <Link to='landing-page' activeClass="active" spy={true} smooth={true}>
+                <h2 className="sml-h2 nav-head">Fin Rah Zel</h2>
+              </Link>
+            </MenuItem>
+
+            <MenuItem onClick={handleClose}>
+              <Link to='about' activeClass="active" spy={true} smooth={true}>About</Link>
+            </MenuItem>
+
+            <MenuItem onClick={handleClose}>
+              <Link to='music-container' activeClass="active" spy={true} smooth={true}>Music</Link>
+            </MenuItem>
+
+            <MenuItem onClick={handleClose}>
+              <Link to='upcoming-dates' activeClass="active" spy={true} smooth={true} >Upcoming Dates</Link>
+            </MenuItem>
+
+            <MenuItem onClick={handleClose}>
+              <Link to='contact' activeClass="active" spy={true} smooth={true} >Contact</Link>
+            </MenuItem>
+          </Menu>
         </div>
     
         <section className="nav-container">
@@ -91,6 +133,7 @@ const ButtonAppBar = () => {
           </div>
         </Toolbar>
       </AppBar>
+      
     </div>
   );
 }
