@@ -11,9 +11,9 @@ const About = () => {
       <h2 className="section-heading">ABOUT</h2>
       <section className='about-content'>
         <article>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Fin Rah Zel is known in his local home town of New Plymouth New Zealand, for delivering soul enriching songs, giving the listener a true heart felt experience. He loves to surf the waves of the Taranaki coast and often explores the local trails on his dirt bike.
         </article>
-        <div className="s-media-container">
+        <div className="follow-links s-media-container">
           <h3 style={{ fontSize: '1.8rem' }}>Follow Fin Rah Zel</h3>
           <a href="https://www.facebook.com/FinRahZel">
             <i className="sm-icon">
