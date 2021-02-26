@@ -1,0 +1,94 @@
+.contact {
+  margin-bottom: 0!important;
+  position: relative;
+  width: 100%;
+}
+
+.contact-img {
+  width: 100%;
+  z-index: 1;
+}
+
+.form-area {
+  margin: 0 auto;
+  width: 30%;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(245, 245, 245);
+  z-index: 1000;
+}
+
+input, #message {
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif;
+  border: 2px solid #aca285;
+  border-radius: .5rem;
+  line-height: 28px;
+  padding: 5px;
+  margin-bottom: .5rem;
+  box-sizing: border-box;
+}
+
+#submit-btn {
+  background-color: #aca285;
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: .5rem; 
+  padding: 8px;
+  font-family: 'Nunito', sans-serif;
+} 
+
+#submit-btn:hover {
+  cursor: pointer;
+}
+
+
+@media (min-width: 993px) {
+
+}
+
+@media (max-width: 1024px) {
+ .form-area {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 992px) {
+.form-area {
+    width: 60%;
+  }
+
+  .contact {
+  padding-top: 20rem;
+  width: 100%;
+}
+}
+
+@media (max-width: 420px) {
+  .contact {
+  min-height: 50vh;
+  padding-top: 20rem;
+  margin-top: 5rem;
+  width: 110%;
+}
+
+  .form-area {
+    width: 80%;
+    /* padding: 2rem 10rem; */
+  }
+
+  .contact-img {
+    display: none;
+}
+
+}
+
+

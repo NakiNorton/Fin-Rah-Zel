@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+.App {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+
+.section {
+  margin: 8rem auto;
+}
+
+/* Typography */
+.h2 {
+  text-align: center;
+  color: #aca285;
+  font-size: 3.75rem;
+  margin: 1.5rem;
+  line-height: 100px; 
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.h3 {
+  font-size: 1.8rem;
+  color: #aca285;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.p {
+  font-size: 1.25rem;
+  color: #414142;
+ 
+}
+
+/* Social Media Links ///////////// */
+.s-media-container {
+  padding-top: 1%;
+  margin: 0 auto;
+  margin-right: -1rem;
+  padding-right: 2.5rem;
+}
+
+.s-media-icon {
+  display: inline-block;
+  font-size: 2.2rem;
+  padding: 0 .5rem;
+  color: white;
+}
+
+.s-media-icon:hover {
+  color: #aca285;
+}
+
+/* Footer  */
+
+footer {
+  height: 20vh;
+  background-color: #aca285;
+}
+
+.footer-logo {
+  font-family: 'Abhaya Libre', serif;;
+  color: white;
+  text-align: left;
+  padding: 1rem 2.5rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-top: -.5rem;
+}
+
+
+

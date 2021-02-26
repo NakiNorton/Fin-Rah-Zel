@@ -1,0 +1,34 @@
+.nav-container {
+  text-align: left;
+}
+
+.nav-links {
+  margin: 0!important;
+}
+
+.nav-link {
+  display: inline-block;
+  color: #aca285;
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  margin: 0 1.5rem;
+  padding: 0 .5rem;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #aca285;
+}
+
+.nav-logo {
+  padding: 0!important;
+  margin: 0!important;
+  color: #9e957a;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Abhaya Libre', serif;;
+}
+
+.mobile-menu {
+  color: #aca285;
+}

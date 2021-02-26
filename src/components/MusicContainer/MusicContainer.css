@@ -1,0 +1,35 @@
+.music {
+  padding: 5rem 1rem;
+}
+
+.video-container {
+  margin-top: 2.5rem;
+}
+
+.video {
+  display: inline;
+  padding: 1rem;
+}
+
+
+@media (min-width: 993px) {
+
+}
+
+@media (max-width: 1024px) {
+  .music{
+    margin: 2rem!important;
+  }
+}
+
+
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 420px) {
+  .music {
+    width: 115%;
+  }
+
+}

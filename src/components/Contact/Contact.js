@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
-import photo from '../assets/nature-background.jpg'
+import photo from '../../assets/nature-background.jpg'
+
+import './Contact.css'
 
 const Contact = () => {
   const [ name, setName ] = useState('')
@@ -30,38 +32,30 @@ const Contact = () => {
   }
 
   return (
-    <>
-      <section className="contact">
-        {/* <section className="column-1"> */}
+      <section className="contact section">
         <img className="contact-img" src={photo} alt="Fin Rah Zel holding guitar"/>
-        {/* </section> */}
-        {/* <section className="column-2"> */}
         <div className="form-area">
-          {/* <div className="sec-title-container"> */}
-            <h2 className="section-heading">CONTACT</h2>
-        {/* </div> */}
+            <h2 className="h2">Contact</h2>
 
           {(!msgSubmitted && !msgError) &&
             <>
-              <p>Send a message to Fin Rah Zel</p>
-      
+              <p className="p">Send a message to Fin Rah Zel</p>
                 <input id="nameInput" name="name" type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
                 <input id="emailInput" name="email" type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
               <textarea id="message" name="message" type="text" placeholder="Your Message..." rows="5" maxLength='250' value={message} onChange={(e) => setMessage(e.target.value)} />
                 <button id="submit-btn" onClick={() => handleClick()}>SEND</button>
-             
             </>
           }
         </div>
           {msgSubmitted &&
-            <p>Thanks for your message!</p>
+          <p className="p">Thanks for your message!</p>
           }
           {msgError &&
-            <p>Sorry, something went wrong and we couldn't send your message. Please refresh the page and try again.</p>
+          <p className="p">Sorry, something went wrong and we couldn't send your message. Please refresh the page and try again.</p>
           }
-        {/* </section> */}
+
       </section>
-    </>
+
   )
 }  
 

@@ -1,0 +1,58 @@
+.upcoming-gigs {
+  width: 60%;  
+  /* background-color: #f5f3f394; */
+  border-radius: 2rem;
+  padding: 2.5rem 1.5rem;
+}
+
+.event-list {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Nunito', sans-serif;
+}
+
+.event {
+  width: 80%;
+  font-size: 1.25rem;
+  padding: .25rem;
+  margin: .25rem auto;
+  color: #212122;
+}
+
+.event:hover {
+  transform: scale(1.02);
+}
+
+.avatar-img {
+  padding: 2.5rem;
+}
+
+
+@media (min-width: 993px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+
+@media (max-width: 992px) {
+  .upcoming-gigs {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+ .upcoming-gigs {
+    width: 115%;
+    padding: 1rem;
+  }
+
+  .event {
+    width: 80%;
+    font-size: 2rem;
+  }
+
+}
