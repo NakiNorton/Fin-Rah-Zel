@@ -5,6 +5,11 @@
   width: 100%;
 }
 
+.contact-h2 {
+  padding-bottom: 1rem!important;
+  /* margin: 0!important; */
+}
+
 .contact-img {
   width: 100%;
   z-index: 1;
@@ -56,10 +61,6 @@ input, #message {
 }
 
 
-@media (min-width: 993px) {
-
-}
-
 @media (max-width: 1024px) {
   .contact {
     padding-top: 14rem;
@@ -69,6 +70,7 @@ input, #message {
   .contact-h2 {
     padding: 0!important;
     margin: 0!important;
+    padding-bottom: 1rem!important;
   }
 
  .form-area {
@@ -96,7 +98,8 @@ input, #message {
 
   .contact-img {
     display: none;
-}
+  }
+
 
 }
 

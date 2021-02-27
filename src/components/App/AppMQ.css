@@ -1,56 +1,68 @@
 
 @media (min-width: 993px) {
-  .mobile-menu {
-    display: none;
-  }
+  
 }
 
 @media (max-width: 1024px) {
-  .s-media-icon {
-    font-size: 1.8rem;
-  }
 
-  .s-media-container {
-    padding-right: 5%;
-  }
-
-  .nav-head {
-    font-size: 1.5rem;
-  }
-
-  .nav-link {
-    font-size: 1.25rem;
-    padding: 0;
-    margin: 1rem;
-  }
 
 }
 
 
-@media (max-width: 992px) {
-  .nav-container {
-    display: none;
+@media (max-width: 1024px) {
+  .footer-logo {
+    font-size: 2.5rem!important;
+    padding: 1rem;
   }
 
-  .s-media-icon {
-    font-size: 2rem;
+  footer {
+    height: 10vh;
   }
 }
 
 @media (max-width: 420px) {
-  .App {
-    width: 200%;
-  }
 
-  .s-media-icon {
-    font-size: 4rem;
+  .h2 {
+    font-size: 2rem!important;
+    line-height: 50px;
+    padding: 1.5rem 0rem;
+    margin: .5rem;
+    padding-bottom: 0;
   }
- 
 
   .h3 {
-    font-size: 2.5rem!important;
+    font-size: 1.5rem!important;
+    padding: 1rem;
   }
 
+  footer {
+    margin-top: 10rem;
+    height: auto;
+  }
+
+  .footer-logo {
+    font-size: 2rem;
+  }
+
+  .p {
+    font-size: 1rem;
+  }
+} 
+
+@media (max-width: 320px) {
+
+  .h2 {
+    font-size: 1.5rem!important;
+    line-height: 50px;
+    padding: 1.5rem 0rem;
+    margin: .5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .h3 {
+    font-size: 1.25rem!important;
+  }
 
 }
 

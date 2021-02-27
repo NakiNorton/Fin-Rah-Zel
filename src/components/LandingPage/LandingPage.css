@@ -1,7 +1,7 @@
 .header {
   position: relative;
   text-align: center;
-  margin-top: -4rem;
+  margin-top: -2rem;
 }
 
 .header-background-img {
@@ -16,66 +16,83 @@
   padding: 0rem 1rem;
   font-family: 'Abhaya Libre', serif;
   margin-bottom: 1rem;
-  font-size: 6.5rem;
+  font-size: 7rem;
   font-weight: 400;
   position: absolute;
-  top: 15%;
-  left: 50%;
+  top: 20%;
+  left: 52%;
   transform: translate(-50%, -50%);
   z-index: 1000;
 }
 
 
-@media (min-width: 993px) {
+@media (max-width: 1600px) {
+  .header-background-img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .header-text {
+    padding-top: 2rem;
+    font-size: 6rem;
+  }
 }
 
 @media (max-width: 1024px) {
+  .header-text {
+    width: 80%;
+  }
+
   .header-background-img {
-  width: 85%;
+    width: 85%;
   }
 }
 
 
 @media (max-width: 992px) {
-  .about {
-    padding-top: 0rem;
-  }
-  
-  .section {
-    margin: 0!important;
-    padding: 2rem 0rem;
-  }
-  
   .header {
     margin-top: -2rem;
   }
 
   .header-text {
-    width: 70%;
-    margin-top: 3rem;
-     margin-left: 2.5rem;
+    width: 80%;
   }
 
   .header-background-img {
-    width: 95%;
+    width: 90%;
   } 
 }
 
+@media (max-width: 540px) {
+  .header-text {
+    font-size: 4rem;
+  }
+
+   .header-background-img {
+    width: 100%;
+  } 
+}
 
 @media (max-width: 420px) {
   .header {
-    margin-top: 0rem;
+    margin-top: 2rem;
   }
-
-  .header-text {
-    padding-top: 5rem;
-    width: 80%;
-   
-  }
-
-  .header-background-img {
-    width: 120%;
+  
+ .header-background-img {
+    width: 100%;
   } 
+ 
+}
+
+@media (max-width: 380px) {
+  .header-text {
+    width: 80%;
+    padding-top: 0!important;
+    margin-top: 0;
+    font-size: 3rem;
+  }
+
 }
 
 

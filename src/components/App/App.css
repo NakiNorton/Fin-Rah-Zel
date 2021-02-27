@@ -33,7 +33,6 @@
 .p {
   font-size: 1.25rem;
   color: #414142;
- 
 }
 
 /* Social Media Links ///////////// */
@@ -69,7 +68,7 @@ footer {
   padding: 1rem 2.5rem;
   font-size: 3.5rem;
   font-weight: 400;
-  /* margin-top: -.5rem; */
+  margin-top: -.5rem;
 }
 
 

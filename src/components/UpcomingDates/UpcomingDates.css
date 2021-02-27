@@ -42,6 +42,9 @@
 }
 
 @media (max-width: 1024px) {
+  .upcoming-gigs {
+    margin-bottom: 4rem;
+}
   .avatar-container {
     width: 48%;
   }
@@ -60,8 +63,8 @@
 
 @media (max-width: 420px) {
  .upcoming-gigs {
-    padding-bottom: 12rem;
-    margin-bottom: 20rem;
+   margin-top: 2rem;
+    padding-bottom: 10rem;
  }
 
   .event {
