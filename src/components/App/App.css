@@ -10,10 +10,6 @@
   width: 100%;
 }
 
-.section {
-  margin: 8rem auto;
-}
-
 /* Typography */
 .h2 {
   text-align: center;
@@ -31,6 +27,7 @@
   color: #aca285;
   font-weight: 400;
   letter-spacing: 2px;
+  padding: 2rem 0 1rem 0;
 }
 
 .p {
@@ -72,7 +69,7 @@ footer {
   padding: 1rem 2.5rem;
   font-size: 3.5rem;
   font-weight: 400;
-  margin-top: -.5rem;
+  /* margin-top: -.5rem; */
 }
 
 
