@@ -63,13 +63,17 @@
 
 @media (max-width: 420px) {
  .upcoming-gigs {
-   margin-top: 2rem;
-    padding-bottom: 10rem;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
  }
 
   .event {
     width: 100%;
     font-size: 1.25rem;
+    text-align: left;
+  }
+
+  .event-list {
     text-align: left;
   }
 

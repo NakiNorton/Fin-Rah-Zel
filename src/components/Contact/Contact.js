@@ -35,7 +35,7 @@ const Contact = () => {
   }
 
   return (
-    <section className="contact">
+    <div className="contact">
       <img className="contact-img" src={photo} alt="Fin Rah Zel playing guitar"/>
       <div className="form-area">
         <h2 className="h2 contact-h2">Contact</h2>
@@ -60,7 +60,7 @@ const Contact = () => {
           </>
         }
       </div>
-    </section>
+    </div>
   )
 }  
 

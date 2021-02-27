@@ -42,7 +42,9 @@ const App = () => {
       </FadeInSection >
 
       <footer>
-        <h2 className="footer-logo">Fin Rah Zel</h2>
+        <div className="footer">
+          <h2 className="footer-logo">Fin Rah Zel</h2>
+        </div>
       </footer>
     </div>
   )

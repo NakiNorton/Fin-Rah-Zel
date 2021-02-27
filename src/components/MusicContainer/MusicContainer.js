@@ -5,8 +5,8 @@ import './MusicContainer.css'
 const MusicContainer = () => {
 
   return (
-      <section className="music section">
-        <h2 className="h2">Latest Releases</h2>
+      <section className="music">
+        <h2 className="h2 music-h2">Latest Releases</h2>
         <div className="video-container">
 
           <div className="video">
@@ -20,7 +20,7 @@ const MusicContainer = () => {
               Sorry, your browser doesn't support embedded videos.
             </iframe>
           </div>
-          
+
         </div>
       </section>
   )

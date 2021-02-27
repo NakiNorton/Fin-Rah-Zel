@@ -59,24 +59,24 @@ const NavBar = () => {
           >
             <MenuItem onClick={handleClose}>
               <Link to='landing-page' activeClass="active" spy={true} smooth={true}>
-                  <h2 className="nav-logo">Fin Rah Zel</h2>
+                <h2 className="nav-logo">Fin Rah Zel</h2>
               </Link>
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Link to='about' activeClass="active" spy={true} smooth={true}>About</Link>
+              <Link id="mobile-link" to='about' activeClass="active" spy={true} smooth={true}>About</Link>
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Link to='music' activeClass="active" spy={true} smooth={true}>Music</Link>
+              <Link id="mobile-link" to='music' activeClass="active" spy={true} smooth={true}>Music</Link>
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Link to='upcoming-gigs' activeClass="active" spy={true} smooth={true} >Upcoming Gigs</Link>
+              <Link id="mobile-link" to='upcoming-gigs' activeClass="active" spy={true} smooth={true} >Upcoming Gigs</Link>
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Link to='contact' activeClass="active" spy={true} smooth={true} >Contact</Link>
+              <Link id="mobile-link" to='contact' activeClass="active" spy={true} smooth={true} >Contact</Link>
             </MenuItem>
           </Menu>
         </div>
@@ -106,25 +106,25 @@ const NavBar = () => {
           <div className="s-media-container">
 
             <a href="https://www.facebook.com/FinRahZel">
-              <i className="s-media-icon" style={{ color: "black" }}>
+              <i className="s-media-icon" style={{ color: "#aca285" }}>
                 <FacebookIcon fontSize="inherit" color='inherit' />
               </i>
             </a>
 
             <a href="https://www.instagram.com/finrahzel/?hl=en">
-              <i className="s-media-icon" style={{ color: "black"  }}>
+              <i className="s-media-icon" style={{ color: "#aca285"  }}>
               <InstagramIcon fontSize="inherit" color='inherit' />
               </i>
             </a>
 
             <a href="https://www.youtube.com/channel/UC2IwDrBMMbk0Ux0844IuEBA">
-              <i className="s-media-icon" style={{ color: "black"  }}>
+              <i className="s-media-icon" style={{ color: "#aca285"  }}>
               <YouTubeIcon fontSize="inherit" color='inherit' />
               </i>
             </a>
 
             <a href="https://open.spotify.com/artist/2LHIjyp5jNwOU2bJftD6K3">
-              <i className="s-media-icon" style={{ color: "black" }}>
+              <i className="s-media-icon" style={{ color: "#aca285" }}>
                 <FontAwesomeIcon icon={['fab', 'spotify']} />
               </i>
             </a>

@@ -20,6 +20,11 @@
   color: #aca285;
 }
 
+#mobile-link {
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
 .nav-logo {
   padding: 0!important;
   margin: 0!important;
@@ -31,4 +36,48 @@
 
 .mobile-menu {
   color: #aca285;
+}
+
+
+@media (min-width: 993px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1140px) {
+  .s-media-container {
+    padding-right: 2.5%;
+  }
+
+  .nav-head {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 1rem;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+  .nav-container {
+    display: none;
+  }
+
+  .s-media-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .s-media-icon {
+    font-size: 4rem;
+  }
+ 
+
+
 }

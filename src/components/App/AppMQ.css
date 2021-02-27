@@ -15,7 +15,7 @@
     padding: 1rem;
   }
 
-  footer {
+  .footer {
     height: 10vh;
   }
 }
@@ -35,7 +35,7 @@
     padding: 1rem;
   }
 
-  footer {
+  .footer {
     margin-top: 10rem;
     height: auto;
   }

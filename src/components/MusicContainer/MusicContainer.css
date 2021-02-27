@@ -40,6 +40,10 @@
     padding: 0!important;
   }
 
+  .music-h2 {
+    padding-top: 5rem!important;
+  }
+
   #responsive-iframe {
     width: 100%;
     height: 100%;
