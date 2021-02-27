@@ -4,21 +4,27 @@
 
 .video-container {
   margin-top: 2.5rem;
+  width: 100%;
 }
 
 .video {
-  display: inline;
+  display: inline-flex;
   padding: 1rem;
 }
 
-
-@media (min-width: 993px) {
-
-}
+ #responsive-iframe {
+    width: 600px;
+    height: 355px
+  }
 
 @media (max-width: 1024px) {
-  .music{
+  .music {
     margin: 2rem!important;
+  }
+
+   #responsive-iframe {
+    width: 500px;
+    height: 255px
   }
 }
 
@@ -29,7 +35,15 @@
 
 @media (max-width: 420px) {
   .music {
-    width: 115%;
+    width: 80%;
+    margin-bottom: 0rem!important;
+    padding: 2rem 0!important;
   }
+
+  #responsive-iframe {
+    width: 100%;
+    height: 100%;
+  }
+
 
 }
