@@ -1,6 +1,5 @@
 .upcoming-gigs {
   width: 60%;  
-  /* background-color: #f5f3f394; */
   border-radius: 2rem;
   padding: 2.5rem 1.5rem;
   margin: 6rem auto;
@@ -43,6 +42,7 @@
 
 @media (max-width: 1024px) {
   .upcoming-gigs {
+    margin-top: -3rem;
     margin-bottom: 4rem;
 }
   .avatar-container {
@@ -62,18 +62,19 @@
 }
 
 @media (max-width: 420px) {
+  .upcoming-h2 {
+    border-bottom: 1px solid #aca285;
+  }
+
  .upcoming-gigs {
-    margin-top: 2rem;
-    padding-bottom: 4rem;
+    margin-top: 1.5rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
  }
 
   .event {
     width: 100%;
     font-size: 1.25rem;
-    text-align: left;
-  }
-
-  .event-list {
     text-align: left;
   }
 
