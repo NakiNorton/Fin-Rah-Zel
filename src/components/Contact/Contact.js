@@ -8,8 +8,9 @@ const Contact = () => {
   const [ name, setName ] = useState('')
   const [ email, setEmail ] = useState('')
   const [ message, setMessage ] = useState('')
-  const [ msgSubmitted , setMsgSubmitted] = useState(false)
+  const [ msgSubmitted , setMsgSubmitted ] = useState(false)
   const [ msgError, setMsgError ] = useState(false)
+
 
   const handleClick = (e) => {
     let service_id = 'contactForm'
@@ -29,33 +30,37 @@ const Contact = () => {
         setMsgError(true)
         console.log('FAILED...', err);
       });
+
+    e.preventDefault()
   }
 
   return (
-      <section className="contact section">
-        <img className="contact-img" src={photo} alt="Fin Rah Zel holding guitar"/>
-        <div className="form-area">
-            <h2 className="h2">Contact</h2>
+    <section className="contact">
+      <img className="contact-img" src={photo} alt="Fin Rah Zel playing guitar"/>
+      <div className="form-area">
+        <h2 className="h2 contact-h2">Contact</h2>
 
-          {(!msgSubmitted && !msgError) &&
-            <>
-              <p className="p">Send a message to Fin Rah Zel</p>
-                <input id="nameInput" name="name" type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
-                <input id="emailInput" name="email" type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-              <textarea id="message" name="message" type="text" placeholder="Your Message..." rows="5" maxLength='250' value={message} onChange={(e) => setMessage(e.target.value)} />
-                <button id="submit-btn" onClick={() => handleClick()}>SEND</button>
-            </>
-          }
-        </div>
-          {msgSubmitted &&
+        {msgSubmitted &&
           <p className="p">Thanks for your message!</p>
-          }
-          {msgError &&
+        }
+
+        {msgError &&
           <p className="p">Sorry, something went wrong and we couldn't send your message. Please refresh the page and try again.</p>
-          }
+        }
 
-      </section>
-
+        {(!msgSubmitted && !msgError) &&
+          <>
+          <form onSubmit={handleClick}>
+            <p className="p">Send a message to Fin Rah Zel</p>
+              <input id="nameInput" name="name" type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required/>
+              <input id="emailInput" name="email" type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
+            <textarea id="message" name="message" type="text" placeholder="Your Message..." rows="5" maxLength='250' value={message} onChange={(e) => setMessage(e.target.value)} required/>
+              <input type="submit" value="Send" id="submit-btn" />
+            </form> 
+          </>
+        }
+      </div>
+    </section>
   )
 }  
 

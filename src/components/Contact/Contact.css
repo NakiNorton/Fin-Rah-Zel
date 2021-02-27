@@ -1,5 +1,6 @@
 .contact {
   margin-bottom: 0!important;
+  padding-bottom: 0!important;
   position: relative;
   width: 100%;
 }
@@ -7,6 +8,11 @@
 .contact-img {
   width: 100%;
   z-index: 1;
+}
+
+.p {
+  margin-top: -.5rem;
+  padding-bottom: 1rem;
 }
 
 .form-area {
@@ -55,8 +61,18 @@ input, #message {
 }
 
 @media (max-width: 1024px) {
+  .contact {
+    padding-top: 14rem;
+    width: 100%;
+  }
+
+  .contact-h2 {
+    padding: 0!important;
+    margin: 0!important;
+  }
+
  .form-area {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -65,24 +81,17 @@ input, #message {
 .form-area {
     width: 60%;
   }
-
-  .contact {
-  padding-top: 20rem;
-  width: 100%;
-}
 }
 
 @media (max-width: 420px) {
   .contact {
-  min-height: 50vh;
-  padding-top: 20rem;
-  margin-top: 5rem;
-  width: 110%;
-}
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 
   .form-area {
     width: 80%;
-    /* padding: 2rem 10rem; */
+    padding: 1rem;
   }
 
   .contact-img {
