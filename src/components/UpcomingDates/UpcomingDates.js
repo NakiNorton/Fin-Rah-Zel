@@ -1,7 +1,4 @@
 import React from 'react'
-import artistPhoto1 from '../../assets/musician-1.jpg'
-import Avatar from '@material-ui/core/Avatar';
-
 import './UpcomingDates.css'
 
 const UpcomingDates = () => {
