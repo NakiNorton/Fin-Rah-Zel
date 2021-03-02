@@ -30,7 +30,8 @@
 @media (max-width: 1024px) {
   .upcoming-gigs {
     margin-top: -3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
+    padding-bottom: 4.5rem;
   }
 }
 
@@ -47,10 +48,10 @@
   }
 
  .upcoming-gigs {
-    margin-top: 1.5rem;
-    padding-bottom: 0rem;
-    margin-bottom: 0rem;
- }
+    margin-top: 0rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+  }
 
   .event {
     width: 100%;
