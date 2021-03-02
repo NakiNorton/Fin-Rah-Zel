@@ -15,10 +15,6 @@ const UpcomingDates = () => {
         <h3 className="h3">April</h3>
         <li className="event">Bri bar, Saturday October 15th 2021 @9am</li>
       </ul>
-
-      <div className="avatar-container">
-        <Avatar id="avatar-img" src={artistPhoto1} alt="Fin Rah Zel playing guitar" />
-      </div>
     </section>
   )
 }
