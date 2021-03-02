@@ -1,10 +1,10 @@
 import React, { lazy, Suspense } from 'react'
-import FadeInSection from '../FadeInAnimation/FadeInAnimation'
+import FadeInSection from '../UI_Animations/FadeInAnimation'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
 import './AppMQ.css';
-import LoadingSpinner from '../LoadingSpinner'
+import LoadingSpinner from '../UI_Animations/LoadingSpinner'
 
 const LandingPage = lazy(() => import('../LandingPage/LandingPage'))
 const About = lazy(() => import('../About/About'))
@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className="App">
       <Suspense fallback={<LoadingSpinner />}>
-      
+    
         <NavBar />
 
         <FadeInSection>
@@ -48,6 +48,7 @@ const App = () => {
             <h2 className="footer-logo">Fin Rah Zel</h2>
           </div>
         </footer>
+        
       </Suspense>
     </div>
   )
