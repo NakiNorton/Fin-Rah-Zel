@@ -13,8 +13,8 @@
 }
 
  #responsive-iframe {
-    width: 600px;
-    height: 355px
+    width: 660px;
+    height: 415px
   }
 
 @media (max-width: 1024px) {
@@ -23,8 +23,8 @@
   }
 
    #responsive-iframe {
-    width: 500px;
-    height: 255px
+    width: 560px;
+    height: 315px
   }
 }
 
