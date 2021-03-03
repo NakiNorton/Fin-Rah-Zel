@@ -11,10 +11,11 @@
 }
 
 .about-content {
-  color: white;
-  width: 60%;
+  color: rgb(247, 244, 244);
+  width: 50%;
   margin: 0 auto;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 35px;
 }
 
 .s-media-container-about {
