@@ -5,10 +5,9 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
 import './AppMQ.css';
 import LoadingSpinner from '../UI_Animations/LoadingSpinner'
-import LandingPage from '../LandingPage/LandingPage'
 import NavBar from '../NavBar/NavBar'
 
-
+const LandingPage = lazy(() => import('../LandingPage/LandingPage'))
 const About = lazy(() => import('../About/About'))
 const MusicContainer = lazy(() => import('../MusicContainer/MusicContainer'))
 const UpcomingDates = lazy(() => import('../UpcomingDates/UpcomingDates'))
@@ -19,8 +18,10 @@ library.add(fab)
 const App = () => {
   return (
     <div className="App">
+      <NavBar />
+
       <Suspense fallback={<LoadingSpinner />}>
-        <NavBar />
+ 
         <LandingPage />
         
         <FadeInSection>
