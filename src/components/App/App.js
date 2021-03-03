@@ -16,13 +16,17 @@ const Contact = lazy(() => import('../Contact/Contact'))
 
 library.add(fab)
 
-
 const App = () => {
   return (
     <div className="App">
       <Suspense fallback={<LoadingSpinner />}>
         <NavBar />
-        <LandingPage id='landing-page'/>
+        <div className="landing-page">
+          <header className="header">
+            <h1 className="header-text">Fin Rah Zel</h1>
+            <img className="header-background-img" src={backgroundPhoto} alt="Fin Rah Zel playing guitar" />
+          </header>
+        </div>
 
         <FadeInSection>
           <About id='about' />
@@ -37,6 +41,21 @@ const App = () => {
         </FadeInSection>
 
         <FadeInSection>
+<<<<<<< HEAD
+          <About id='about' />
+        </FadeInSection>
+
+        <FadeInSection>
+          <MusicContainer id='music' />
+        </FadeInSection>
+
+        <FadeInSection>
+          <UpcomingDates id='upcoming-gigs' />
+        </FadeInSection>
+
+        <FadeInSection>
+=======
+>>>>>>> 0f1166534d0f66484c64d5e957531e05f182612f
           <Contact id='contact' />
         </FadeInSection > 
 
