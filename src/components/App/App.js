@@ -6,7 +6,7 @@ import './App.css';
 import './AppMQ.css';
 import LoadingSpinner from '../UI_Animations/LoadingSpinner'
 
-const LandingPage = lazy(() => import('../LandingPage/LandingPage'))
+import LandingPage from '../LandingPage/LandingPage'
 const About = lazy(() => import('../About/About'))
 const NavBar = lazy(() => import('../NavBar/NavBar'))
 const MusicContainer = lazy(() => import('../MusicContainer/MusicContainer'))
@@ -27,9 +27,9 @@ const App = () => {
           <LandingPage id='landing-page'/>
         </FadeInSection>
 
-        <FadeInSection>
+       <FadeInSection>
           <About id='about'/>
-        </FadeInSection>
+        </FadeInSection> 
 
         <FadeInSection>
           <MusicContainer id='music'/>
@@ -41,15 +41,15 @@ const App = () => {
 
         <FadeInSection>
           <Contact id='contact' /> 
-        </FadeInSection >
+        </FadeInSection > 
 
         <footer>
           <div className="footer">
             <h2 className="footer-logo">Fin Rah Zel</h2>
           </div>
-        </footer>
+        </footer> 
         
-      </Suspense>
+    </Suspense>
     </div>
   )
 }
