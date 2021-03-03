@@ -21,13 +21,8 @@ const App = () => {
     <div className="App">
       <Suspense fallback={<LoadingSpinner />}>
         <NavBar />
-        <div className="landing-page">
-          <header className="header">
-            <h1 className="header-text">Fin Rah Zel</h1>
-            <img className="header-background-img" src={backgroundPhoto} alt="Fin Rah Zel playing guitar" />
-          </header>
-        </div>
-
+        <LandingPage />
+        
         <FadeInSection>
           <About id='about' />
         </FadeInSection>
@@ -41,21 +36,6 @@ const App = () => {
         </FadeInSection>
 
         <FadeInSection>
-<<<<<<< HEAD
-          <About id='about' />
-        </FadeInSection>
-
-        <FadeInSection>
-          <MusicContainer id='music' />
-        </FadeInSection>
-
-        <FadeInSection>
-          <UpcomingDates id='upcoming-gigs' />
-        </FadeInSection>
-
-        <FadeInSection>
-=======
->>>>>>> 0f1166534d0f66484c64d5e957531e05f182612f
           <Contact id='contact' />
         </FadeInSection > 
 
