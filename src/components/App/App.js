@@ -22,10 +22,7 @@ const App = () => {
       <Suspense fallback={<LoadingSpinner />}>
     
         <NavBar />
-
-        <FadeInSection>
-          <LandingPage id='landing-page'/>
-        </FadeInSection>
+        <LandingPage id='landing-page'/>
 
        <FadeInSection>
           <About id='about'/>
