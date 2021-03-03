@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react'
+import React, { useEffect, useState } from 'react'
 import FadeInSection from '../UI_Animations/FadeInAnimation'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -7,22 +7,59 @@ import './AppMQ.css';
 import LoadingSpinner from '../UI_Animations/LoadingSpinner'
 import NavBar from '../NavBar/NavBar'
 
-const LandingPage = lazy(() => import('../LandingPage/LandingPage'))
-const About = lazy(() => import('../About/About'))
-const MusicContainer = lazy(() => import('../MusicContainer/MusicContainer'))
-const UpcomingDates = lazy(() => import('../UpcomingDates/UpcomingDates'))
-const Contact = lazy(() => import('../Contact/Contact'))
+import LandingPage from '../LandingPage/LandingPage'
+import About from '../About/About'
+import MusicContainer from '../MusicContainer/MusicContainer'
+import UpcomingDates from '../UpcomingDates/UpcomingDates'
+import Contact from '../Contact/Contact'
+
+// const LandingPage = lazy(() => import('../LandingPage/LandingPage'))
+// const About = lazy(() => import('../About/About'))
+// const MusicContainer = lazy(() => import('../MusicContainer/MusicContainer'))
+// const UpcomingDates = lazy(() => import('../UpcomingDates/UpcomingDates'))
+// const Contact = lazy(() => import('../Contact/Contact'))
 
 library.add(fab)
 
 const App = () => {
+  const [ isLoading, setIsLoading ] = useState(true)
+
+  const cacheImages = async (assets) => {
+    const promises = await assets.map(asset => {
+      return new Promise(function (resolve, reject) {
+        const img = new Image()
+
+        img.asset = asset
+        img.onload = resolve()
+        img.onerror = reject()
+      })
+    })
+    await Promise.all(promises)
+
+    setIsLoading(false)
+  }
+
+  useEffect(() => {
+    const landingImg = ['../../assets/FinRahZel-9.svg']
+
+    cacheImages(landingImg)
+  }, [])
+
   return (
     <div className="App">
-      <NavBar />
+      { isLoading &&
+      <>
+        <NavBar />
+        <LoadingSpinner />
+      </>
+      }
 
-      <Suspense fallback={<LoadingSpinner />}>
- 
-        <LandingPage />
+      { !isLoading &&
+      <>
+        <NavBar />
+        <FadeInSection>
+          <LandingPage />
+        </FadeInSection>
         
         <FadeInSection>
           <About id='about' />
@@ -45,8 +82,8 @@ const App = () => {
             <h2 className="footer-logo">Fin Rah Zel</h2>
           </div>
         </footer> 
-        
-    </Suspense>
+        </>
+        }
     </div>
   )
 }
