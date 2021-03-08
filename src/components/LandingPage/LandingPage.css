@@ -19,7 +19,7 @@
   font-size: 7rem;
   font-weight: 400;
   position: absolute;
-  top: 22%;
+  top: 20%;
   left: 52%;
   transform: translate(-50%, -50%);
   z-index: 1000;
@@ -34,14 +34,14 @@
 
 @media (max-width: 1120px) {
   .header-text {
-    padding-top: 1rem;
-    font-size: 6rem;
+    padding-top: 0rem;
+    font-size: 6.25rem;
   }
 }
 
 @media (max-width: 1024px) {
   .header-text {
-    padding-top: 8rem;
+    padding-top: 0rem;
     width: 80%;
     font-size: 6.5rem;
   }
@@ -59,11 +59,19 @@
 
   .header-text {
     width: 80%;
+    font-size: 5.5rem;
   }
 
   .header-background-img {
     width: 90%;
   } 
+}
+
+@media (max-width: 768px) {
+  .header-text {
+    font-size: 5rem;
+  }
+
 }
 
 @media (max-width: 540px) {

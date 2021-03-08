@@ -52,7 +52,7 @@ const Contact = () => {
         {(!msgSubmitted && !msgError) &&
           <>
           <form onSubmit={handleClick}>
-            <p className="p">Send a message to Fin Rah Zel</p>
+            <p className="p p-contact">Send a message to Fin Rah Zel</p>
               <input id="nameInput" name="name" type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required/>
               <input id="emailInput" name="email" type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
             <textarea id="message" name="message" type="text" placeholder="Your Message..." rows="5" maxLength='250' value={message} onChange={(e) => setMessage(e.target.value)} required/>

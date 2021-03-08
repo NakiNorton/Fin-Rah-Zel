@@ -64,7 +64,7 @@ input, #message {
 
 @media (max-width: 1024px) {
   .contact {
-    padding-top: 10rem;
+    padding-top: 6rem;
     width: 100%;
   }
 
@@ -97,20 +97,45 @@ input, #message {
 
 @media (max-width: 420px) {
   .contact {
-    min-height: 60vh;
+    min-height: 65vh;
     margin: 0!important;
     margin-bottom: 4rem!important;
+  }
+
+  .contact-h2 {
+    padding-bottom: 0!important;
+    border-bottom: 1px solid #aca285;
   }
 
   .form-area {
     width: 75%;
     padding: 2rem;
-    margin-top: 6rem;
+    margin-top: 0rem;
   }
 
   .contact-img {
     display: none;
   }
+
+  .p-contact {
+    margin-top: 1rem;
+  }
 }
+
+@media (max-width: 320px) {
+  .contact {
+    min-height: 70vh;
+    padding-top: 8rem;
+  }
+
+  .form-area {
+    padding-top: 5rem;
+  }
+
+  input, #message {
+  font-size: 1rem;
+  }
+}
+
 
 
