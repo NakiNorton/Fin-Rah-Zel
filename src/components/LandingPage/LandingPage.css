@@ -5,7 +5,7 @@
 }
 
 .header-background-img {
-  width: 48%;
+  width: 45%;
   opacity: .8;
   z-index: 1;
 }
@@ -19,29 +19,31 @@
   font-size: 7rem;
   font-weight: 400;
   position: absolute;
-  top: 20%;
+  top: 22%;
   left: 52%;
   transform: translate(-50%, -50%);
   z-index: 1000;
 }
 
 
-@media (max-width: 1600px) {
+@media (max-width: 1800px) {
   .header-background-img {
-    width: 60%;
+    width: 55%;
   }
 }
 
 @media (max-width: 1120px) {
   .header-text {
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: 6rem;
   }
 }
 
 @media (max-width: 1024px) {
   .header-text {
+    padding-top: 8rem;
     width: 80%;
+    font-size: 6.5rem;
   }
 
   .header-background-img {
