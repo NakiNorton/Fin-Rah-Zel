@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundPhoto from '../../assets/FinRahZel-9.svg'
+import backgroundPhoto from '../../assets/FinRahZel-9.jpg'
 import './LandingPage.css'
 
 
