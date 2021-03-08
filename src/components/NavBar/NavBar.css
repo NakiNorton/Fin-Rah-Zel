@@ -9,7 +9,7 @@
 .nav-link {
   display: inline-block;
   color: #aca285;
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   font-family: 'Nunito', sans-serif;
   margin: 0 1.5rem;
   padding: 0 .5rem;
@@ -29,7 +29,7 @@
   padding: 0!important;
   margin: 0!important;
   color: #9e957a;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 400;
   font-family: 'Abhaya Libre', serif;;
 }
