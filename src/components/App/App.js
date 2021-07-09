@@ -8,16 +8,11 @@ import LoadingSpinner from '../UI_Animations/LoadingSpinner'
 import NavBar from '../NavBar/NavBar'
 
 import LandingPage from '../LandingPage/LandingPage'
-import About from '../About/About'
+import Quote from '../Quote/Quote'
 import MusicContainer from '../MusicContainer/MusicContainer'
 import UpcomingDates from '../UpcomingDates/UpcomingDates'
 import Contact from '../Contact/Contact'
 
-// const LandingPage = lazy(() => import('../LandingPage/LandingPage'))
-// const About = lazy(() => import('../About/About'))
-// const MusicContainer = lazy(() => import('../MusicContainer/MusicContainer'))
-// const UpcomingDates = lazy(() => import('../UpcomingDates/UpcomingDates'))
-// const Contact = lazy(() => import('../Contact/Contact'))
 
 library.add(fab)
 
@@ -62,7 +57,7 @@ const App = () => {
         </FadeInSection>
         
         <FadeInSection>
-          <About id='about' />
+          <Quote id='about' />
         </FadeInSection>
 
         <FadeInSection>

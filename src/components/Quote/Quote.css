@@ -1,0 +1,29 @@
+.quote { 
+  margin: 10rem 0;
+  text-align: center;
+  background-color: black;
+  padding: 4rem;
+  color: rgb(247, 244, 244);
+  font-size: 1.25rem;
+  line-height: 35px;
+}
+
+@media (max-width: 1024px) {
+ .quote {
+    margin-top: 2rem!important;
+    padding-top: 2rem!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .quote {
+    margin-top: 0rem!important;
+  }
+}
+
+@media (max-width: 420px) {
+ .quote {
+    margin-top: 2.5rem!important;
+    font-size: 1rem;
+  }
+}
