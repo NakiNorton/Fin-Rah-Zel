@@ -6,12 +6,12 @@ import './App.css';
 import './AppMQ.css';
 import LoadingSpinner from '../UI_Animations/LoadingSpinner'
 import NavBar from '../NavBar/NavBar'
-
 import LandingPage from '../LandingPage/LandingPage'
 import Quote from '../Quote/Quote'
 import MusicContainer from '../MusicContainer/MusicContainer'
 import UpcomingDates from '../UpcomingDates/UpcomingDates'
 import Contact from '../Contact/Contact'
+import photo from '../../assets/ocean_bandname.jpeg'
 
 
 library.add(fab)
@@ -57,11 +57,7 @@ const App = () => {
         </FadeInSection>
         
         <FadeInSection>
-          <Quote id='about' />
-        </FadeInSection>
-
-        <FadeInSection>
-          <MusicContainer id='music' />
+          <Quote id='quote' />
         </FadeInSection>
 
         <FadeInSection>
@@ -69,8 +65,14 @@ const App = () => {
         </FadeInSection>
 
         <FadeInSection>
+          <MusicContainer id='music' />
+        </FadeInSection>
+
+        <FadeInSection>
           <Contact id='contact' />
         </FadeInSection > 
+
+        <img className="contact-img" src={photo} alt="Fin Rah Zel playing guitar"/>
 
         <footer>
           <div className="footer">
