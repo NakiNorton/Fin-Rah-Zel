@@ -1,19 +1,17 @@
 .contact {
-  margin-bottom: 4rem!important;
-  padding-bottom: 0!important;
-  position: relative;
+  margin-bottom: 5rem!important;
+  padding-bottom: 4rem!important;
   width: 100%;
 }
 
 .contact-h2 {
   padding-bottom: 1rem!important;
-  /* margin: 0!important; */
 }
 
 .contact-img {
   width: 80%;
-  opacity: .9;
-  z-index: 1;
+  margin-bottom: 5rem;
+  border-radius: 10px;
 }
 
 .p {
@@ -26,12 +24,7 @@
   width: 30%;
   padding: 2rem 2.5rem;
   border-radius: 1rem;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: rgb(255, 255, 255);
-  z-index: 1000;
 }
 
 input, #message {
@@ -61,10 +54,9 @@ input, #message {
   cursor: pointer;
 }
 
-
 @media (max-width: 1024px) {
   .contact {
-    padding-top: 6rem;
+    padding-top: 5rem;
     width: 100%;
   }
 
@@ -76,22 +68,13 @@ input, #message {
 
  .form-area {
     width: 40%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
-  
 }
 
 
 @media (max-width: 992px) {
   .form-area {
     width: 55%;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 }
 
@@ -109,8 +92,6 @@ input, #message {
 
   .form-area {
     width: 75%;
-    padding: 2rem;
-    margin-top: 0rem;
   }
 
   .contact-img {
@@ -125,17 +106,12 @@ input, #message {
 @media (max-width: 320px) {
   .contact {
     min-height: 70vh;
-    padding-top: 8rem;
-  }
-
-  .form-area {
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   input, #message {
   font-size: 1rem;
   }
 }
-
 
 

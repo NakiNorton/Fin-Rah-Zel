@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
-// import photo from '../../assets/nature-background.jpg'
-import photo from '../../assets/FinRahZel-25.jpg'
-
 import './Contact.css'
 
 const Contact = () => {
@@ -37,7 +34,6 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <img className="contact-img" src={photo} alt="Fin Rah Zel playing guitar"/>
       <div className="form-area">
         <h2 className="h2 contact-h2">Contact</h2>
 
