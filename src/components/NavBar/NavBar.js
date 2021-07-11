@@ -64,11 +64,11 @@ const NavBar = () => {
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Link id="mobile-link" to='music' activeClass="active" spy={true} smooth={true}>Music</Link>
+              <Link id="mobile-link" to='upcoming-gigs' activeClass="active" spy={true} smooth={true} >Upcoming Gigs</Link>
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
-              <Link id="mobile-link" to='upcoming-gigs' activeClass="active" spy={true} smooth={true} >Upcoming Gigs</Link>
+              <Link id="mobile-link" to='music' activeClass="active" spy={true} smooth={true}>Music</Link>
             </MenuItem>
 
             <MenuItem onClick={handleClose}>
@@ -85,10 +85,10 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-link">
-              <Link to='music' activeClass="active" spy={true} smooth={true}>Music</Link>
+              <Link to='upcoming-gigs' activeClass="active" spy={true} smooth={true} >Upcoming Gigs</Link>
             </li>
             <li className="nav-link">
-              <Link to='upcoming-gigs' activeClass="active" spy={true} smooth={true} >Upcoming Gigs</Link>
+              <Link to='music' activeClass="active" spy={true} smooth={true}>Music</Link>
             </li>
             <li className="nav-link">
               <Link to='contact' activeClass="active" spy={true} smooth={true} >Contact</Link>
