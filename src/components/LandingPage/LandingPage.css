@@ -1,8 +1,5 @@
-.header {
-  position: relative;
-  text-align: center;
-  margin-top: -2rem;
-  min-height: 80vh;
+.landing-page {
+  height: 100vh;
 }
 
 @keyframes fadeInAnimation { 
@@ -15,11 +12,13 @@
 } 
 
 .header-background-img {
-  width: 45%;
+  margin-top: 12rem;
+  /* width: 100%; */
   z-index: 1;
   animation: fadeInAnimation ease 3s ;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards;
+  border-radius: 15px;
 }
 
 .header-text {
@@ -28,10 +27,10 @@
   padding: 0rem 1rem;
   font-family: 'Abhaya Libre', serif;
   margin-bottom: 1rem;
-  font-size: 7rem;
+  font-size: 5.5rem;
   font-weight: 400;
   position: absolute;
-  top: 20%;
+  top: 17%;
   left: 52%;
   transform: translate(-50%, -50%);
   z-index: 1000;
@@ -40,7 +39,7 @@
 
 @media (max-width: 1800px) {
   .header-background-img {
-    width: 55%;
+    width: 65%;
   }
 }
 
@@ -49,29 +48,35 @@
     padding-top: 0rem;
     font-size: 6.25rem;
   }
+
+  .landing-page {
+    height: 70vh;
+  }
 }
 
 @media (max-width: 1024px) {
   .header-text {
     padding-top: 0rem;
     width: 80%;
-    font-size: 6.5rem;
+    font-size: 5.5rem;
+    top: 12%;
   }
 
   .header-background-img {
+    margin-top: 16rem;
     width: 85%;
   }
 }
 
 
 @media (max-width: 992px) {
-  .header {
-    margin-top: -2rem;
-  }
-
   .header-text {
     width: 80%;
     font-size: 5.5rem;
+  }
+
+  .landing-page {
+    height: 80vh;
   }
 
   .header-background-img {
@@ -82,8 +87,8 @@
 @media (max-width: 768px) {
   .header-text {
     font-size: 5rem;
+    top: 15%;
   }
-
 }
 
 @media (max-width: 540px) {
@@ -96,15 +101,16 @@
   } 
 }
 
-@media (max-width: 420px) {
-  .header {
-    margin-top: 2rem;
+@media (max-width: 420px) {  
+  .landing-page {
+    height: 70vh;
   }
-  
+
  .header-background-img {
     width: 100%;
+    border-radius: 0;
+    margin-top: 10rem;
   } 
- 
 }
 
 @media (max-width: 380px) {
@@ -113,8 +119,15 @@
     padding-top: 0!important;
     margin-top: 0;
     font-size: 3rem;
+    top: 16%;
   }
+}
 
+
+@media (max-width: 320px) {
+  .header-text {
+    top: 18.5%;
+  }
 }
 
 
