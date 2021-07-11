@@ -103,7 +103,7 @@
 
 @media (max-width: 420px) {  
   .landing-page {
-    height: 80vh;
+    height: 90vh;
   }
 
   .header-text {
@@ -113,7 +113,7 @@
  .header-background-img {
     width: 100%;
     border-radius: 0;
-    margin-top: 15rem;
+    margin-top: 12rem;
   } 
 }
 
