@@ -103,13 +103,17 @@
 
 @media (max-width: 420px) {  
   .landing-page {
-    height: 70vh;
+    height: 80vh;
+  }
+
+  .header-text {
+    top: 20%;
   }
 
  .header-background-img {
     width: 100%;
     border-radius: 0;
-    margin-top: 10rem;
+    margin-top: 15rem;
   } 
 }
 
@@ -119,16 +123,17 @@
     padding-top: 0!important;
     margin-top: 0;
     font-size: 3rem;
-    top: 16%;
   }
-}
 
-
-@media (max-width: 320px) {
   .header-text {
-    top: 18.5%;
+    top: 22%;
   }
+
+  .header-background-img {
+    margin-top: 12rem;
+  } 
 }
+
 
 
 
