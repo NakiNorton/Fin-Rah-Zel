@@ -1,9 +1,8 @@
 .upcoming-gigs {
   width: 60%;  
   border-radius: 2rem;
-  padding: 4rem 1.5rem;
-  margin: 6rem auto;
-  padding-bottom: 12rem;
+  margin: 4rem auto;
+  margin-top: 8rem;
 }
 
 .event-list {
@@ -56,7 +55,7 @@
   .event {
     width: 100%;
     font-size: 1.1rem;
-    text-align: left;
+    margin-bottom: 2.5rem;
   }
 
 }
