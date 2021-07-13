@@ -16,7 +16,7 @@ const MusicContainer = () => {
           </div>
 
           <div className="video">
-            <iframe id="responsive-iframe" title="Happy Man" src="https://www.youtube.com/embed/XO0sfngDdLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullFcreen>
+            <iframe id="responsive-iframe" title="Happy Man" src="https://www.youtube.com/embed/XO0sfngDdLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
               Sorry, your browser doesn't support embedded videos.
             </iframe>
           </div>
