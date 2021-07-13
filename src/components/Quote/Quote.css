@@ -23,7 +23,6 @@
 
 @media (max-width: 420px) {
  .quote {
-    margin-top: 2.5rem!important;
     font-size: 1rem;
     margin-bottom: 0;
   }

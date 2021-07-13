@@ -68,7 +68,6 @@
   }
 }
 
-
 @media (max-width: 992px) {
   .header-text {
     width: 80%;
@@ -99,20 +98,19 @@
    .header-background-img {
     width: 100%;
   } 
-}
+} 
 
 @media (max-width: 420px) {  
   .landing-page {
-    height: 90vh;
+    height: 80vh;
   }
 
   .header-text {
-    top: 20%;
+    top: 8rem;;
   }
 
  .header-background-img {
-    width: 100%;
-    border-radius: 0;
+    width: 90%;
     margin-top: 12rem;
   } 
 }
@@ -126,7 +124,7 @@
   }
 
   .header-text {
-    top: 22%;
+    top: 6rem;
   }
 
   .header-background-img {
