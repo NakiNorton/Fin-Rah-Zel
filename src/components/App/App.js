@@ -11,6 +11,7 @@ import Quote from '../Quote/Quote'
 import MusicContainer from '../MusicContainer/MusicContainer'
 import UpcomingDates from '../UpcomingDates/UpcomingDates'
 import Contact from '../Contact/Contact'
+import Gallery from '../Gallery/Gallery'
 import photo from '../../assets/ocean_bandname.jpeg'
 
 
@@ -58,6 +59,10 @@ const App = () => {
         
         <FadeInSection>
           <Quote id='quote' />
+        </FadeInSection>
+
+        <FadeInSection>
+          <Gallery />
         </FadeInSection>
 
         <FadeInSection>

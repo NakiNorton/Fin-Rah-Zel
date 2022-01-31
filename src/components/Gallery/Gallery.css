@@ -1,0 +1,42 @@
+.gallery {
+  padding: 2rem 1rem;
+}
+
+.img-container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.gallery-image {
+  max-width: 48%;
+  height: 48%;
+  padding: .5rem;
+}
+
+.img-1 {
+  margin-top: -4rem;
+  border-radius: 15px;
+}
+
+.img-2 {
+  margin-top: 5rem;
+  border-radius: 15px;
+}
+
+@media (max-width: 1124px) {
+  .img-container {
+    display: block;
+  }
+  
+  .gallery-image {
+    height: auto;
+    max-width: 90%
+  }
+
+}
+
+@media (max-width: 420px) {
+  .gallery-image{
+    margin-top: 0rem;
+  }
+}
