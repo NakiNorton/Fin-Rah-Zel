@@ -6,10 +6,8 @@ const UpcomingDates = () => {
     <section className="upcoming-gigs section">
       <h2 className="h2 upcoming-h2" style={{ paddingTop: '5rem' }}>Upcoming Gigs</h2>
       <ul className="event-list">
-        <h3 className="h3">Friday 16 July 2021</h3>
-        <li className="event">Support act for Sons Of Zion, The Square, Palmerston North</li>
-        <h3 className="h3">TBA</h3>
-        <li className="event">"Power" Single release show</li>
+        <h3 className="h3">To be announced</h3>
+        {/* <li className="event">Support act for Sons Of Zion, The Square, Palmerston North</li> */}
       </ul>
     </section>
   )
