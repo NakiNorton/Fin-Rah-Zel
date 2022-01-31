@@ -75,7 +75,7 @@
   }
 
   .landing-page {
-    height: 80vh;
+    height: 75vh;
   }
 
   .header-background-img {
@@ -95,6 +95,10 @@
     font-size: 4rem;
   }
 
+  .landing-page {
+    height: 90vh;
+  }
+
    .header-background-img {
     width: 100%;
   } 
@@ -102,7 +106,7 @@
 
 @media (max-width: 420px) {  
   .landing-page {
-    height: 80vh;
+    height: 60vh;
   }
 
   .header-text {
@@ -128,7 +132,7 @@
   }
 
   .header-background-img {
-    margin-top: 12rem;
+    margin-top: 10rem;
   } 
 }
 
